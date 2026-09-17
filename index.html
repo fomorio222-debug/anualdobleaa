@@ -1,0 +1,2022 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registro de descartes en comercios pequeños | themins</title>
+<meta name="description" content="Método informativo para registrar y leer el producto vencido, dañado o no vendido en tiendas, panaderías y minimercados. Ejemplos hipotéticos, sin asesoría.">
+<meta name="author" content="SERGIO ANDRES JIMENEZ JULIO">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://themins.blog/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_PE">
+<meta property="og:site_name" content="themins">
+<meta property="og:title" content="Registro de descartes: método para medir lo que un comercio pierde antes de vender">
+<meta property="og:description" content="Portal informativo sobre cómo registrar por causa y leer cada mes el producto que un comercio pequeño retira del estante sin venderlo.">
+<meta property="og:url" content="https://themins.blog/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,500&amp;family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&amp;display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://themins.blog/#sitio",
+      "url": "https://themins.blog/",
+      "name": "themins",
+      "inLanguage": "es-PE",
+      "publisher": { "@id": "https://themins.blog/#organizacion" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://themins.blog/#titular",
+      "name": "SERGIO ANDRES JIMENEZ JULIO",
+      "email": "mailto:soporte@themins.blog",
+      "telephone": "+51 1 4174988",
+      "url": "https://themins.blog/#nosotros",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. 28 de Julio 888",
+        "addressLocality": "Miraflores",
+        "addressRegion": "Lima",
+        "postalCode": "15074",
+        "addressCountry": "PE"
+      }
+    },
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://themins.blog/#organizacion",
+      "name": "themins",
+      "url": "https://themins.blog/",
+      "email": "soporte@themins.blog",
+      "telephone": "+51 1 4174988",
+      "description": "Portal informativo sobre el registro y la lectura del producto descartado en comercios pequeños de rotación rápida.",
+      "founder": { "@id": "https://themins.blog/#titular" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. 28 de Julio 888",
+        "addressLocality": "Miraflores",
+        "addressRegion": "Lima",
+        "postalCode": "15074",
+        "addressCountry": "PE"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://themins.blog/#articulos",
+      "headline": "Registro de descartes: método para medir lo que un comercio pierde antes de vender",
+      "description": "Método de registro manual del producto vencido, dañado, devuelto o pedido por error, con seis variables de control y ejemplos hipotéticos.",
+      "datePublished": "2026-09-02",
+      "dateModified": "2026-09-16",
+      "inLanguage": "es-PE",
+      "wordCount": 1239,
+      "mainEntityOfPage": "https://themins.blog/",
+      "author": { "@id": "https://themins.blog/#titular" },
+      "publisher": { "@id": "https://themins.blog/#organizacion" },
+      "isPartOf": { "@id": "https://themins.blog/#sitio" }
+    }
+  ]
+}
+</script>
+<script>
+(function () {
+  "use strict";
+  document.documentElement.classList.add("js");
+}());
+</script>
+<style>
+:root,
+::backdrop {
+  --papel: #F6F2E9;
+  --superficie: #FFFDF8;
+  --tinta: #221E1A;
+  --tinta-media: #5E564C;
+  --filete: #DAD2C3;
+  --tela: #3E4F43;
+  --lacre: #8C3A2E;
+  --velo: rgb(34 30 26 / 0.55);
+  --texto: "Gentium Book Plus", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --titulares: "Alegreya Sans", "Gill Sans", "Segoe UI", "Trebuchet MS", sans-serif;
+  --medida: 60ch;
+  --margen: 7.5rem;
+  --calle: 2.25rem;
+  --radio: 2px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 5.5rem;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: var(--texto);
+  font-size: 1.125rem;
+  line-height: 1.65;
+  font-kerning: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--titulares);
+  color: var(--color-titulo, var(--tinta));
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.05rem, 1.35rem + 2.9vw, 3.15rem);
+  font-weight: 700;
+  letter-spacing: -0.012em;
+}
+
+h2 {
+  margin: 0;
+  font-size: clamp(1.55rem, 1.3rem + 1vw, 1.95rem);
+  font-weight: 700;
+}
+
+h3 {
+  margin: 2.2rem 0 0.6rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+h4 {
+  margin: 1.5rem 0 0.35rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+ul {
+  margin: 0 0 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: var(--color-enlace, var(--tinta));
+  text-decoration-line: var(--subrayado, underline);
+  text-decoration-color: var(--color-subrayado, var(--tinta-media));
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  --color-subrayado: currentColor;
+  --subrayado: underline;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-foco, var(--tinta));
+  outline-offset: 3px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.salto {
+  position: absolute;
+  z-index: 30;
+  left: 1rem;
+  top: -5rem;
+  padding: 0.6rem 1rem;
+  background: var(--superficie);
+  border: 1px solid var(--tinta);
+  font-family: var(--titulares);
+}
+
+.salto:focus {
+  top: 1rem;
+}
+
+.cabecera {
+  z-index: 10;
+  background: var(--superficie);
+  border-bottom: 1px solid var(--filete);
+}
+
+.cabecera-in {
+  max-width: calc(var(--margen) + var(--calle) + var(--medida) + 2.5rem);
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+.cabecera-in {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25rem 1.5rem;
+  min-height: 4rem;
+}
+
+.marca {
+  --subrayado: none;
+  display: flex;
+  flex-direction: column;
+  padding-block: 0.5rem;
+  font-family: var(--titulares);
+  line-height: 1.1;
+}
+
+.marca-nombre {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.marca-sub {
+  font-size: 0.85rem;
+  color: var(--tinta-media);
+}
+
+.menu-boton {
+  font: 500 1rem var(--titulares);
+  color: var(--tinta);
+  background: var(--superficie);
+  border: 1px solid var(--tinta);
+  border-radius: var(--radio);
+  padding: 0.45rem 0.9rem;
+  cursor: pointer;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 1.4rem;
+  margin: 0;
+}
+
+.menu a {
+  --subrayado: none;
+  display: block;
+  padding: 0.45rem 0;
+  font-family: var(--titulares);
+  font-weight: 500;
+  font-size: 1.02rem;
+}
+
+.pliego {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  max-width: calc(var(--medida) + 2.5rem);
+  margin-inline: auto;
+  padding: 3.5rem 1.25rem 3rem;
+}
+
+.fila {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.apertura {
+  align-items: baseline;
+  margin-bottom: 1.6rem;
+  padding-top: 1rem;
+  border-top: 5px double var(--tela);
+}
+
+.margen {
+  margin: 0 0 0.35rem;
+  font-family: var(--titulares);
+  font-size: 0.9rem;
+  line-height: 1.3;
+  color: var(--color-nota, var(--tinta-media));
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+:not(.apertura) + .fila {
+  margin-top: 1.8rem;
+}
+
+.fila-cuerpo > :first-child {
+  margin-top: 0;
+}
+
+.fila-cuerpo > :last-child {
+  margin-bottom: 0;
+}
+
+.entradilla {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.aviso-informativo {
+  font-style: italic;
+}
+
+.motivo {
+  margin: 2rem 0 1.5rem;
+  padding: 1.2rem 0 0.9rem;
+  border-top: 1px solid var(--filete);
+  border-bottom: 1px solid var(--filete);
+}
+
+.motivo-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.motivo-dia {
+  max-width: 22.5rem;
+  margin-inline: auto;
+}
+
+.motivo figcaption,
+.tabla caption {
+  font-family: var(--titulares);
+  font-size: 0.98rem;
+  line-height: 1.45;
+  color: var(--tinta-media);
+}
+
+.motivo figcaption {
+  margin-top: 0.9rem;
+  font-variant-numeric: lining-nums;
+}
+
+.sv-fondo {
+  fill: var(--superficie);
+}
+
+.sv-trama {
+  stroke: var(--tinta);
+}
+
+.sv-punto {
+  fill: var(--tinta);
+}
+
+.sv-casilla {
+  stroke: var(--tinta);
+  stroke-width: 1;
+}
+
+.sv-base,
+.sv-llave {
+  stroke: var(--tinta-media);
+}
+
+.sv-rotulo,
+.sv-cifra,
+.sv-rotulo-obs {
+  font-family: var(--titulares);
+}
+
+.sv-rotulo,
+.sv-rotulo-obs {
+  font-size: 17px;
+}
+
+.sv-rotulo {
+  fill: var(--tinta);
+}
+
+.sv-cifra {
+  font-size: 15px;
+  fill: var(--tinta-media);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.obs .sv-marco {
+  fill: none;
+  stroke: var(--lacre);
+}
+
+.obs .sv-rotulo-obs {
+  fill: var(--lacre);
+  font-weight: 500;
+}
+
+.dos-columnas {
+  display: grid;
+  gap: 0.5rem 2.5rem;
+}
+
+.lista-asiento li {
+  padding: 0.55rem 0;
+  border-top: 1px solid var(--filete);
+}
+
+.lista-asiento li:last-child {
+  border-bottom: 1px solid var(--filete);
+}
+
+.fechas {
+  margin-top: 0.6rem;
+  font-family: var(--titulares);
+  font-size: 0.98rem;
+  color: var(--tinta-media);
+}
+
+.tabla-marco {
+  margin: 1.6rem 0 1rem;
+  overflow-x: auto;
+}
+
+.tabla {
+  width: 100%;
+  min-width: 34rem;
+  border-collapse: collapse;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.tabla caption {
+  caption-side: top;
+  text-align: left;
+  padding-bottom: 0.6rem;
+}
+
+.tabla :is(th, td) {
+  padding: 0.55rem 0.6rem;
+  vertical-align: top;
+}
+
+.tabla :is(th, td):not(.cifra) {
+  text-align: left;
+}
+
+.tabla thead th {
+  font-family: var(--titulares);
+  font-weight: 500;
+  border-bottom: 2px solid var(--tinta);
+}
+
+.tabla tbody :is(th, td) {
+  border-bottom: 1px solid var(--filete);
+}
+
+.tabla tbody th,
+.tabla tfoot th {
+  font-weight: 700;
+}
+
+.tabla tfoot :is(th, td) {
+  border-top: 2px solid var(--tinta);
+}
+
+.tabla .cifra {
+  text-align: right;
+  white-space: nowrap;
+  font-family: var(--titulares);
+  font-size: 1.05rem;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+th.obs {
+  border-left: 3px solid var(--lacre);
+}
+
+.practicas li {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.practicas li + li {
+  margin-top: 0.55rem;
+}
+
+.practicas li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.82em;
+  width: 0.8rem;
+  border-top: 1px solid var(--tinta);
+}
+
+.ficha {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  margin: 1rem 0 0;
+  border-top: 1px solid var(--color-regla, var(--tinta));
+}
+
+.ficha dt {
+  padding-top: 0.55rem;
+  font-family: var(--titulares);
+  font-size: 0.95rem;
+  color: var(--color-nota, var(--tinta-media));
+}
+
+.ficha dd {
+  margin: 0;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--color-linea, var(--filete));
+  overflow-wrap: anywhere;
+}
+
+.datos-contacto li {
+  padding: 0.45rem 0;
+  border-bottom: 1px solid var(--filete);
+  overflow-wrap: anywhere;
+}
+
+.formulario {
+  margin-top: 1rem;
+}
+
+.campo + .campo {
+  margin-top: 1.1rem;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-family: var(--titulares);
+  font-weight: 500;
+}
+
+.campo input,
+.campo textarea {
+  display: block;
+  width: 100%;
+  padding: 0.6rem 0.7rem;
+  font: inherit;
+  color: var(--tinta);
+  background: var(--superficie);
+  border: 1px solid var(--tinta-media);
+  border-radius: var(--radio);
+}
+
+.campo textarea {
+  min-height: 9rem;
+  resize: vertical;
+}
+
+.campo [aria-invalid="true"] {
+  border-left: 5px solid var(--tinta);
+}
+
+.error {
+  margin: 0.35rem 0 0;
+  font-family: var(--titulares);
+  font-weight: 700;
+  font-size: 0.98rem;
+}
+
+.estado {
+  min-height: 1.65em;
+  margin: 1rem 0 0;
+  font-family: var(--titulares);
+}
+
+.nota-formulario {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: var(--tinta-media);
+}
+
+.aviso-phishing {
+  margin: 1.4rem 0;
+  padding: 1rem 1.15rem;
+  background: var(--superficie);
+  border: 1px solid var(--tinta-media);
+  border-radius: var(--radio);
+}
+
+.aviso-phishing h4 {
+  margin-top: 0;
+}
+
+.aviso-phishing p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.boton,
+.boton-borde {
+  display: inline-block;
+  padding: 0.65rem 1.15rem;
+  font: 500 1.02rem var(--titulares);
+  border-radius: var(--radio);
+  cursor: pointer;
+}
+
+.boton {
+  color: var(--superficie);
+  background: var(--tela);
+  border: 1px solid var(--tela);
+}
+
+.boton:hover {
+  background: var(--tinta);
+  border-color: var(--tinta);
+}
+
+.boton-borde {
+  color: var(--tinta);
+  background: var(--superficie);
+  border: 1px solid var(--tinta);
+}
+
+.boton-borde:hover {
+  color: var(--superficie);
+  background: var(--tinta);
+}
+
+.boton-texto {
+  padding: 0;
+  font: inherit;
+  color: var(--color-enlace, var(--tinta));
+  background: none;
+  border: 0;
+  text-decoration: underline;
+  text-decoration-color: var(--color-subrayado, var(--tinta-media));
+  text-underline-offset: 0.18em;
+  cursor: pointer;
+}
+
+.boton-texto:hover {
+  --color-subrayado: currentColor;
+}
+
+.documentos li + li {
+  margin-top: 0.35rem;
+}
+
+.pie {
+  --color-titulo: var(--papel);
+  --color-enlace: var(--papel);
+  --color-subrayado: var(--filete);
+  --color-foco: var(--papel);
+  --color-nota: var(--filete);
+  --color-regla: var(--filete);
+  --color-linea: var(--tinta-media);
+  background: var(--tela);
+  color: var(--papel);
+  border-top: 5px double var(--papel);
+}
+
+.pie-in {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  max-width: calc(var(--medida) + 2.5rem);
+  margin-inline: auto;
+  padding: 3rem 1.25rem 2.5rem;
+}
+
+.pie h2 {
+  font-size: 1.35rem;
+}
+
+.pie-titulo {
+  margin-bottom: 0.5rem;
+}
+
+.pie-sub {
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.pie-enlaces li + li {
+  margin-top: 0.3rem;
+}
+
+.pie-legal {
+  margin: 2rem 0 0;
+  font-size: 0.95rem;
+}
+
+.cookies {
+  position: fixed;
+  z-index: 20;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  max-width: 40rem;
+  margin-inline: auto;
+  padding: 1rem 1.2rem 1.1rem;
+  background: var(--superficie);
+  border: 1px solid var(--tinta);
+  border-top: 5px double var(--tela);
+  border-radius: var(--radio);
+  opacity: 0;
+  transform: translateY(0.75rem);
+}
+
+.cookies.visible {
+  opacity: 1;
+  transform: none;
+}
+
+.cookies-titulo {
+  margin-bottom: 0.3rem;
+  font-family: var(--titulares);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.cookies-texto {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.cookies-acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+dialog.dialogo {
+  width: min(46rem, calc(100% - 2rem));
+  max-width: none;
+  max-height: min(88vh, 62rem);
+  padding: 0;
+  overflow: auto;
+  color: var(--tinta);
+  background: var(--superficie);
+  border: 1px solid var(--tinta-media);
+  border-top: 5px double var(--tela);
+  border-radius: var(--radio);
+  overscroll-behavior: contain;
+}
+
+dialog.dialogo::backdrop {
+  background: var(--velo);
+}
+
+.dialogo-cab {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem 1rem;
+  padding: 1rem 1.4rem 0.85rem;
+  background: var(--superficie);
+  border-bottom: 1px solid var(--filete);
+}
+
+.dialogo-cuerpo {
+  padding: 1rem 1.4rem 1.8rem;
+}
+
+.dialogo-cuerpo h3 {
+  margin-top: 1.7rem;
+  font-size: 1.12rem;
+}
+
+.dialogo-cuerpo p,
+.dialogo-cuerpo li {
+  font-size: 1.02rem;
+}
+
+.dialogo-cuerpo ul {
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+.vigencia {
+  font-family: var(--titulares);
+  color: var(--tinta-media);
+}
+
+html:not(.js) .menu-boton,
+html:not(.js) .dialogo-cerrar,
+html:not(.js) .solo-con-js,
+.js .solo-sin-js {
+  display: none;
+}
+
+html:not(.js) dialog.dialogo:target {
+  position: static;
+  display: block;
+  max-height: none;
+  margin: 2rem auto;
+}
+
+@media (max-width: 767.98px) {
+  .js .cabecera {
+    position: sticky;
+    top: 0;
+  }
+
+  .js .menu:not(.abierto) {
+    display: none;
+  }
+
+  .menu {
+    flex-basis: 100%;
+    padding-bottom: 0.6rem;
+  }
+
+  .menu ul {
+    flex-direction: column;
+  }
+
+  .menu li + li {
+    border-top: 1px solid var(--filete);
+  }
+}
+
+@media (min-width: 768px) {
+  .cabecera {
+    position: sticky;
+    top: 0;
+  }
+
+  .menu-boton {
+    display: none;
+  }
+
+  .pliego,
+  .pie-in {
+    grid-template-columns: var(--margen) minmax(0, var(--medida));
+    column-gap: var(--calle);
+    justify-content: center;
+    max-width: none;
+  }
+
+  .pliego > :not(.fila),
+  .pie-in > :not(.margen) {
+    grid-column: 2;
+  }
+
+  .fila {
+    grid-column: 1 / -1;
+    grid-template-columns: var(--margen) minmax(0, 1fr);
+    column-gap: var(--calle);
+  }
+
+  .margen {
+    margin: 0;
+    padding-top: 0.3rem;
+    text-align: right;
+  }
+
+  .apertura .margen {
+    padding-top: 0;
+  }
+
+  .dos-columnas {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ficha {
+    grid-template-columns: minmax(0, 12rem) minmax(0, 1fr);
+  }
+
+  .ficha dt,
+  .ficha dd {
+    padding-block: 0.55rem;
+    border-bottom: 1px solid var(--color-linea, var(--filete));
+  }
+
+  .ficha dd {
+    padding-left: 1rem;
+  }
+
+  .pliego {
+    padding-block: 4.5rem 3.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a,
+  button,
+  input,
+  textarea {
+    transition: color 150ms ease, background-color 150ms ease, border-color 150ms ease, outline-color 150ms ease, text-decoration-color 150ms ease;
+  }
+
+  .cookies {
+    transition: opacity 200ms ease, transform 200ms ease;
+  }
+
+  dialog.dialogo[open]:not(.cerrando) {
+    animation: abrir 200ms ease-out;
+  }
+
+  dialog.dialogo[open]:not(.cerrando)::backdrop {
+    animation: velar 200ms ease-out;
+  }
+
+  dialog.dialogo.cerrando {
+    animation: cerrar 200ms ease-in forwards;
+  }
+
+  dialog.dialogo.cerrando::backdrop {
+    animation: desvelar 200ms ease-in forwards;
+  }
+}
+
+@keyframes abrir {
+  from {
+    opacity: 0;
+    transform: translateY(0.6rem);
+  }
+}
+
+@keyframes cerrar {
+  to {
+    opacity: 0;
+    transform: translateY(0.6rem);
+  }
+}
+
+@keyframes velar {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes desvelar {
+  to {
+    opacity: 0;
+  }
+}
+</style>
+</head>
+<body>
+<a class="salto" href="#contenido">Saltar al contenido</a>
+
+<header class="cabecera">
+  <div class="cabecera-in">
+    <a class="marca" href="#inicio">
+      <span class="marca-nombre">themins</span>
+      <span class="marca-sub">Registro de descartes en el comercio pequeño</span>
+    </a>
+    <button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+    <nav id="menu" class="menu" aria-label="Principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#articulos">Artículos</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#politicas">Políticas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido" tabindex="-1">
+
+<section id="inicio" class="pliego" aria-labelledby="t-inicio">
+  <div class="fila apertura">
+    <p class="margen">Asiento 01</p>
+    <h1 id="t-inicio">Descarte de producto en el comercio pequeño: cómo medir lo que sale del estante sin venderse</h1>
+  </div>
+  <p class="entradilla">Cada semana, tiendas, panaderías y minimercados retiran del estante unidades vencidas, dañadas o devueltas sin anotar cuántas son ni por qué salen. Este portal explica cómo registrar ese descarte por causa, cómo relacionarlo con el volumen comprado y cómo leer el acumulado del mes con un criterio propio y documentado.</p>
+  <div class="fila">
+    <p class="margen">Aviso</p>
+    <p class="aviso-informativo fila-cuerpo">Portal solo informativo. themins describe métodos generales de registro; no vende productos ni servicios, no audita inventarios y no sustituye la orientación de un contador público ni la de la autoridad sanitaria competente.</p>
+  </div>
+  <figure class="motivo">
+<svg class="motivo-svg" viewBox="0 0 480 395" role="img" aria-labelledby="sv-semana-t" aria-describedby="sv-semana-d" xmlns="http://www.w3.org/2000/svg">
+<title id="sv-semana-t">Semana hipotética de descartes por causa</title>
+<desc id="sv-semana-d">Siete columnas de casillas apiladas, de lunes a domingo, con 6, 4, 7, 11, 5, 8 y 3 unidades descartadas. Cada casilla es una unidad y su trama indica la causa: vencimiento, rotura, devolución o error de pedido. La columna del jueves está enmarcada y rotulada como asiento observado. Datos hipotéticos.</desc>
+<defs><pattern id="tv-a" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect class="sv-fondo" width="4" height="4"/><line class="sv-trama" x1="2" y1="0" x2="2" y2="4" stroke-width="2.2"/></pattern><pattern id="tr-a" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect class="sv-fondo" width="6" height="6"/><line class="sv-trama" x1="3" y1="0" x2="3" y2="6" stroke-width="1"/><line class="sv-trama" x1="0" y1="3" x2="6" y2="3" stroke-width="1"/></pattern><pattern id="td-a" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect class="sv-fondo" width="7" height="7"/><line class="sv-trama" x1="3.5" y1="0" x2="3.5" y2="7" stroke-width="1"/></pattern><pattern id="te-a" width="6" height="6" patternUnits="userSpaceOnUse"><rect class="sv-fondo" width="6" height="6"/><circle class="sv-punto" cx="3" cy="3" r="1.1"/></pattern></defs>
+<g>
+<rect class="sv-casilla" x="51.8" y="273" width="25.7" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="52.2" y="253" width="25.6" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="52" y="233" width="25.9" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="51.5" y="213" width="26" height="17" fill="url(#tr-a)"/>
+<rect class="sv-casilla" x="51.4" y="193" width="25.9" height="17" fill="url(#td-a)"/>
+<rect class="sv-casilla" x="51.5" y="173" width="25.6" height="17" fill="url(#te-a)"/>
+<text class="sv-cifra" x="65" y="165" text-anchor="middle">6</text>
+<text class="sv-rotulo" x="65" y="316" text-anchor="middle">Lun</text>
+</g>
+<g>
+<rect class="sv-casilla" x="111.9" y="273" width="26.3" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="111.5" y="253" width="25.7" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="112.2" y="233" width="26.4" height="17" fill="url(#tr-a)"/>
+<rect class="sv-casilla" x="112.1" y="213" width="25.9" height="17" fill="url(#te-a)"/>
+<text class="sv-cifra" x="125" y="205" text-anchor="middle">4</text>
+<text class="sv-rotulo" x="125" y="316" text-anchor="middle">Mar</text>
+</g>
+<g>
+<rect class="sv-casilla" x="172.6" y="273" width="25.5" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="172.4" y="253" width="25.8" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="171.6" y="233" width="25.6" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="171.8" y="213" width="26.3" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="171.6" y="193" width="26.1" height="17" fill="url(#tr-a)"/>
+<rect class="sv-casilla" x="172.2" y="173" width="25.9" height="17" fill="url(#td-a)"/>
+<rect class="sv-casilla" x="172.1" y="153" width="25.6" height="17" fill="url(#te-a)"/>
+<text class="sv-cifra" x="185" y="145" text-anchor="middle">7</text>
+<text class="sv-rotulo" x="185" y="316" text-anchor="middle">Mié</text>
+</g>
+<g>
+<rect class="sv-casilla" x="231.5" y="273" width="25.7" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="232.2" y="253" width="25.9" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="231.8" y="233" width="26.1" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="231.9" y="213" width="25.8" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="232.4" y="193" width="26.2" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="231.7" y="173" width="26.1" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="232" y="153" width="26.4" height="17" fill="url(#tr-a)"/>
+<rect class="sv-casilla" x="232.3" y="133" width="25.8" height="17" fill="url(#tr-a)"/>
+<rect class="sv-casilla" x="232.6" y="113" width="25.6" height="17" fill="url(#td-a)"/>
+<rect class="sv-casilla" x="231.9" y="93" width="26.3" height="17" fill="url(#te-a)"/>
+<rect class="sv-casilla" x="231.6" y="73" width="26" height="17" fill="url(#te-a)"/>
+<text class="sv-rotulo" x="245" y="316" text-anchor="middle">Jue</text>
+</g>
+<g>
+<rect class="sv-casilla" x="291.4" y="273" width="26.2" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="292.3" y="253" width="26.1" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="292.5" y="233" width="25.8" height="17" fill="url(#tr-a)"/>
+<rect class="sv-casilla" x="292.2" y="213" width="26.1" height="17" fill="url(#td-a)"/>
+<rect class="sv-casilla" x="292.1" y="193" width="26" height="17" fill="url(#te-a)"/>
+<text class="sv-cifra" x="305" y="185" text-anchor="middle">5</text>
+<text class="sv-rotulo" x="305" y="316" text-anchor="middle">Vie</text>
+</g>
+<g>
+<rect class="sv-casilla" x="352.4" y="273" width="26.4" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="352" y="253" width="26.2" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="351.5" y="233" width="26.2" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="352.2" y="213" width="26.5" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="352.4" y="193" width="25.8" height="17" fill="url(#tr-a)"/>
+<rect class="sv-casilla" x="351.9" y="173" width="26.2" height="17" fill="url(#tr-a)"/>
+<rect class="sv-casilla" x="351.4" y="153" width="26" height="17" fill="url(#td-a)"/>
+<rect class="sv-casilla" x="351.6" y="133" width="25.6" height="17" fill="url(#te-a)"/>
+<text class="sv-cifra" x="365" y="125" text-anchor="middle">8</text>
+<text class="sv-rotulo" x="365" y="316" text-anchor="middle">Sáb</text>
+</g>
+<g>
+<rect class="sv-casilla" x="411.5" y="273" width="26.3" height="17" fill="url(#tv-a)"/>
+<rect class="sv-casilla" x="411.6" y="253" width="25.7" height="17" fill="url(#tr-a)"/>
+<rect class="sv-casilla" x="411.9" y="233" width="26.4" height="17" fill="url(#te-a)"/>
+<text class="sv-cifra" x="425" y="225" text-anchor="middle">3</text>
+<text class="sv-rotulo" x="425" y="316" text-anchor="middle">Dom</text>
+</g>
+<g class="obs"><path class="sv-marco" d="M226.5 64.5 L263.2 63.8 L263.6 294.4 L226.8 295 Z" stroke-width="1.8"/><text class="sv-rotulo-obs" x="245" y="32" text-anchor="middle">Asiento observado</text><text class="sv-rotulo-obs" x="245" y="53" text-anchor="middle">jueves, 11 u.</text></g>
+<path class="sv-base" d="M30 299.6 Q160 300.4 250 299.8 T456 300.2" stroke-width="1.2" fill="none"/>
+<rect class="sv-casilla" x="40" y="336" width="22" height="15" fill="url(#tv-a)"/>
+<text class="sv-rotulo" x="70" y="349">Vencimiento</text>
+<rect class="sv-casilla" x="250" y="336" width="22" height="15" fill="url(#tr-a)"/>
+<text class="sv-rotulo" x="280" y="349">Rotura</text>
+<rect class="sv-casilla" x="40" y="366" width="22" height="15" fill="url(#td-a)"/>
+<text class="sv-rotulo" x="70" y="379">Devolución</text>
+<rect class="sv-casilla" x="250" y="366" width="22" height="15" fill="url(#te-a)"/>
+<text class="sv-rotulo" x="280" y="379">Error de pedido</text>
+</svg>
+    <figcaption>Figura 1. Semana hipotética de descartes en un comercio pequeño: 44 unidades en siete días. Cada casilla es una unidad y la trama indica la causa: diagonal densa para vencimiento, cruzada para rotura, diagonal abierta para devolución y punteada para error de pedido. La columna enmarcada del jueves, con 11 unidades, es el asiento observado que se desglosa en el artículo.</figcaption>
+  </figure>
+  <p><a href="#articulos">Leer el artículo sobre el método de registro de descartes</a></p>
+</section>
+
+<section id="alcance" class="pliego" aria-labelledby="t-alcance">
+  <div class="fila apertura">
+    <p class="margen">Asiento 02</p>
+    <h2 id="t-alcance">Alcance del portal</h2>
+  </div>
+  <div class="dos-columnas">
+    <div>
+      <h3>Qué encontrará aquí</h3>
+      <ul class="lista-asiento">
+        <li>Un método para anotar cada unidad descartada con su fecha, su causa y el lote del que proviene.</li>
+        <li>Criterios para comparar lo que se compra con lo que el comercio vende de verdad en un período.</li>
+        <li>Señales visibles en el estante que anticipan un descarte y conviene anotar cuando aparecen.</li>
+        <li>Una forma ordenada de leer el acumulado mensual y de documentar las decisiones que se toman con él.</li>
+        <li>Ejemplos numéricos hipotéticos, expresados siempre en unidades o en porcentaje del lote.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Qué no encontrará aquí</h3>
+      <ul class="lista-asiento">
+        <li>Indicaciones sanitarias, de conservación o sobre el destino del producto vencido o dañado.</li>
+        <li>Asesoría contable o tributaria sobre el tratamiento de las mermas de su negocio.</li>
+        <li>Venta de mercadería, de programas o de servicios de ningún tipo.</li>
+        <li>Promesas de resultados ni cifras presentadas como una meta que se pueda alcanzar.</li>
+        <li>Recomendaciones de proveedores, marcas o cadenas comerciales.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="areas" class="pliego" aria-labelledby="t-areas">
+  <div class="fila apertura">
+    <p class="margen">Asiento 03</p>
+    <h2 id="t-areas">Cuatro áreas de estudio</h2>
+  </div>
+  <p>El contenido del portal se ordena en cuatro áreas. Cada una describe un concepto del registro de descartes y el error que con más frecuencia lo vuelve inútil.</p>
+
+  <div class="fila">
+    <p class="margen">03.1</p>
+    <div class="fila-cuerpo">
+      <h3>Registro del descarte por causa</h3>
+      <p>Registrar el descarte por causa significa anotar cada unidad que sale del estante sin venderse junto con el motivo que la retiró. En un comercio de rotación rápida las causas habituales son cuatro: vencimiento, cuando el producto alcanza su fecha límite; rotura, cuando el envase o el producto se daña; devolución, cuando la unidad se retira después de haberse exhibido; y error de pedido, cuando llegó una cantidad o una variedad que no correspondía. Separarlas permite ver que no todo descarte tiene el mismo origen.</p>
+      <p>El error frecuente es anotar un único total semanal, o no anotar nada y estimar a ojo al final del mes. Un total sin causa no dice si el problema está en la compra, en la manipulación o en la exhibición, y una estimación posterior tiende a recordar solo los episodios llamativos. También es común mezclar en una misma línea unidades y cajas, lo que impide sumar después sin rehacer el registro.</p>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">03.2</p>
+    <div class="fila-cuerpo">
+      <h3>Volumen de compra y capacidad real de venta</h3>
+      <p>La capacidad real de venta es la cantidad de unidades de un producto que el comercio vende en un período determinado, observada en sus propios registros y no deducida de lo que sugiere quien lo abastece ni de una semana excepcional. Compararla con el volumen comprado muestra qué parte del lote tiene salida probable antes de su fecha y qué parte queda expuesta desde el día en que llega.</p>
+      <p>El error frecuente es fijar el pedido por costumbre o por la presentación mínima del empaque, sin contrastarlo con la venta observada. Otro error habitual es tomar como referencia una semana con feriado o con un evento en la zona y repetir esa cantidad en semanas normales. La diferencia entre lo comprado y lo vendido no desaparece: se traslada al estante y, con los días, al registro de descartes.</p>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">03.3</p>
+    <div class="fila-cuerpo">
+      <h3>Señales tempranas en el estante</h3>
+      <p>Las señales tempranas son indicios observables de que una unidad probablemente no se venderá a tiempo: fechas próximas agrupadas al fondo del estante, empaques golpeados o abiertos, filas que no bajan entre una reposición y la siguiente, o productos que quedaron detrás de una llegada más reciente. Anotarlas con la fecha en que se ven convierte una impresión en un dato que puede compararse con el descarte posterior.</p>
+      <p>El error frecuente es revisar el estante solo el día en que hay que retirar producto, cuando la señal ya se convirtió en pérdida. También se confunde la señal con la causa: una fila que no baja no explica por sí sola el problema, sino que indica dónde mirar. Registrar la señal y, más adelante, si la unidad terminó vendida o descartada es lo que permite saber qué indicios anticipan de verdad un descarte en ese comercio.</p>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">03.4</p>
+    <div class="fila-cuerpo">
+      <h3>Lectura del descarte acumulado del mes</h3>
+      <p>Leer el acumulado del mes consiste en sumar el registro diario por producto y por causa, expresarlo en unidades y en porcentaje del lote recibido, y compararlo con los meses anteriores. La lectura no busca una cifra ideal, sino identificar qué productos y qué causas concentran la mayor parte del descarte y si ese reparto se mantiene o cambia de un período a otro.</p>
+      <p>El error frecuente es decidir con un solo mes de datos o con meses que no son comparables entre sí. Un mes con más días de atención, con una fecha festiva o con un cambio de presentación del producto puede mostrar un aumento que no responde a una tendencia. Otro error es decidir sin dejar constancia del motivo: sin esa nota, al mes siguiente no se puede evaluar si la decisión se apoyó en el dato correcto.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Unidad publicitaria 1: insertar entre la sección de áreas de estudio y el artículo principal, en un contenedor propio con la leyenda «Publicidad», con una separación mínima de 48 px respecto del texto editorial anterior y posterior. No colocarla dentro del artículo, junto al menú, al formulario ni al aviso de cookies. -->
+
+<article id="articulos" class="pliego" aria-labelledby="t-articulo">
+  <div class="fila apertura">
+    <p class="margen">Asiento 04</p>
+    <header>
+      <h2 id="t-articulo">Registro de descartes: método para medir lo que un comercio pierde antes de vender</h2>
+      <p class="fechas">Publicado el <time datetime="2026-09-02">2 de septiembre de 2026</time>. Revisado el <time datetime="2026-09-16">16 de septiembre de 2026</time>. Edición: SERGIO ANDRES JIMENEZ JULIO.</p>
+    </header>
+  </div>
+
+  <p>En un comercio de rotación rápida, el producto que se descarta rara vez aparece en algún papel. Se retira del estante, se aparta en una caja y el conteo, si existe, queda en la memoria de quien lo hizo. El resultado es que el dueño sabe que pierde producto todas las semanas, pero no puede decir cuánto, de qué artículos ni por qué motivo.</p>
+  <p>Este artículo describe un método de registro manual que puede llevarse en un cuaderno o en una hoja de cálculo. Su propósito es medir: convertir el descarte en un dato ordenado por fecha, producto y causa. No propone metas ni anticipa resultados; lo que cada comercio haga con la información depende de su situación y de la orientación profesional que reciba.</p>
+
+  <div class="fila">
+    <p class="margen">04.1</p>
+    <div class="fila-cuerpo">
+      <h3>Qué se considera descarte</h3>
+      <p>Para este método, descarte es toda unidad que ingresó al comercio para ser vendida y salió del inventario sin haberse vendido. La definición incluye el producto vencido, el dañado, el devuelto que no vuelve a exhibirse y el que llegó por error y no tiene salida. No incluye el consumo del personal ni las muestras entregadas de forma deliberada, que conviene anotar en una línea aparte para que no se mezclen con el descarte.</p>
+      <p>La unidad de medida debe ser la misma en todo el registro. Si un producto se compra por cajas y se vende por piezas, el registro se lleva en piezas. Cambiar de unidad a mitad de mes obliga a convertir todo al final y es una fuente habitual de errores.</p>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">04.2</p>
+    <div class="fila-cuerpo">
+      <h3>Las cuatro causas del registro</h3>
+      <p>Cada unidad descartada se asigna a una sola causa. Cuando dos parecen aplicar, se elige la que ocurrió primero y se deja una nota breve que explique la elección.</p>
+      <h4>Vencimiento</h4>
+      <p>La unidad alcanzó su fecha límite antes de venderse. Se anota la fecha de retiro y, si se conoce, la fecha en que llegó el lote al comercio.</p>
+      <h4>Rotura</h4>
+      <p>El producto o su envase sufrió un daño durante la descarga, el almacenamiento, la reposición o la atención. Conviene anotar en qué momento ocurrió, porque ese dato orienta la revisión posterior.</p>
+      <h4>Devolución</h4>
+      <p>La unidad fue retirada después de exhibirse, ya sea porque un cliente la devolvió o porque el propio comercio la apartó. Se registra aunque el proveedor haya aceptado recibirla, para no perder de vista el volumen que sale del estante.</p>
+      <h4>Error de pedido</h4>
+      <p>Llegó una cantidad, una variedad o una presentación distinta de la que se necesitaba y no tuvo salida. Esta causa separa los problemas de compra de los problemas de exhibición.</p>
+    </div>
+  </div>
+
+  <figure class="motivo motivo-dia">
+<svg class="motivo-svg" viewBox="0 0 360 266" role="img" aria-labelledby="sv-dia-t" aria-describedby="sv-dia-d" xmlns="http://www.w3.org/2000/svg">
+<title id="sv-dia-t">Desglose hipotético de un día de descartes</title>
+<desc id="sv-dia-d">Una columna de once casillas correspondiente al jueves hipotético. De abajo arriba: seis unidades por vencimiento, marcadas como asiento observado; dos por rotura; una por devolución y dos por error de pedido.</desc>
+<defs><pattern id="tv-b" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect class="sv-fondo" width="4" height="4"/><line class="sv-trama" x1="2" y1="0" x2="2" y2="4" stroke-width="2.2"/></pattern><pattern id="tr-b" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect class="sv-fondo" width="6" height="6"/><line class="sv-trama" x1="3" y1="0" x2="3" y2="6" stroke-width="1"/><line class="sv-trama" x1="0" y1="3" x2="6" y2="3" stroke-width="1"/></pattern><pattern id="td-b" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect class="sv-fondo" width="7" height="7"/><line class="sv-trama" x1="3.5" y1="0" x2="3.5" y2="7" stroke-width="1"/></pattern><pattern id="te-b" width="6" height="6" patternUnits="userSpaceOnUse"><rect class="sv-fondo" width="6" height="6"/><circle class="sv-punto" cx="3" cy="3" r="1.1"/></pattern></defs>
+<rect class="sv-casilla" x="40" y="219" width="34" height="17" fill="url(#tv-b)"/>
+<rect class="sv-casilla" x="40.1" y="199" width="34" height="17" fill="url(#tv-b)"/>
+<rect class="sv-casilla" x="40.4" y="179" width="34" height="17" fill="url(#tv-b)"/>
+<rect class="sv-casilla" x="40" y="159" width="34" height="17" fill="url(#tv-b)"/>
+<rect class="sv-casilla" x="40" y="139" width="34" height="17" fill="url(#tv-b)"/>
+<rect class="sv-casilla" x="40.1" y="119" width="34" height="17" fill="url(#tv-b)"/>
+<rect class="sv-casilla" x="39.7" y="99" width="34" height="17" fill="url(#tr-b)"/>
+<rect class="sv-casilla" x="40" y="79" width="34" height="17" fill="url(#tr-b)"/>
+<rect class="sv-casilla" x="40.1" y="59" width="34" height="17" fill="url(#td-b)"/>
+<rect class="sv-casilla" x="40.3" y="39" width="34" height="17" fill="url(#te-b)"/>
+<rect class="sv-casilla" x="39.6" y="19" width="34" height="17" fill="url(#te-b)"/>
+<g class="obs"><path class="sv-marco" d="M82 120 H88.5 V235 H82" stroke-width="1.4" fill="none"/><text class="sv-rotulo-obs" x="98" y="174.5">Vencimiento: 6 u.</text><text class="sv-rotulo-obs" x="98" y="194.5">asiento observado</text></g>
+<path class="sv-llave" d="M82 80 H88.5 V115 H82" stroke-width="1.4" fill="none"/><text class="sv-rotulo" x="98" y="102.5">Rotura: 2 u.</text>
+<path class="sv-llave" d="M82 60 H88.5 V75 H82" stroke-width="1.4" fill="none"/><text class="sv-rotulo" x="98" y="72.5">Devolución: 1 u.</text>
+<path class="sv-llave" d="M82 20 H88.5 V55 H82" stroke-width="1.4" fill="none"/><text class="sv-rotulo" x="98" y="42.5">Error de pedido: 2 u.</text>
+<path class="sv-base" d="M24 239.6 Q60 240.3 96 239.8" stroke-width="1.2" fill="none"/>
+<text class="sv-cifra" x="57" y="258" text-anchor="middle">Jueves</text>
+</svg>
+    <figcaption>Figura 2. Desglose del jueves hipotético de la Figura 1: once unidades apiladas por causa. El grupo de vencimiento es el asiento observado.</figcaption>
+  </figure>
+
+  <div class="fila">
+    <p class="margen">04.3</p>
+    <div class="fila-cuerpo">
+      <h3>Estructura de la hoja de registro</h3>
+      <p>La hoja tiene una fila por evento de descarte y seis columnas: fecha, producto, lote o fecha de llegada, cantidad en unidades, causa y una nota de una línea. Una fila por evento, y no por unidad, mantiene el registro manejable: si el jueves se retiraron seis unidades vencidas del mismo producto, basta una fila con la cantidad seis.</p>
+      <p>Al cierre de cada día se suma la columna de cantidad por causa. Al cierre de la semana esos subtotales pasan a un resumen, y al cierre del mes se agregan las semanas. La Figura 2 muestra el desglose de un día hipotético con once unidades descartadas: seis por vencimiento, dos por rotura, una por devolución y dos por error de pedido.</p>
+      <p>El registro debe llevarlo siempre la misma persona o, si son varias, con las mismas reglas escritas en la primera página del cuaderno. Las diferencias de criterio entre quienes anotan suelen aparecer en el resumen como variaciones del descarte que en realidad no existieron.</p>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">04.4</p>
+    <div class="fila-cuerpo">
+      <h3>Seis variables de control</h3>
+      <p>El resumen del período se organiza en seis variables que relacionan el descarte con el lote recibido. La Tabla 1 las presenta con un ejemplo hipotético: un lote de 200 unidades de un mismo producto a lo largo de una semana. Las cifras no representan un comercio real ni un resultado esperable; solo ilustran cómo se calculan los porcentajes.</p>
+    </div>
+  </div>
+
+  <div class="tabla-marco" role="region" aria-labelledby="cap-tabla" tabindex="0">
+    <table class="tabla">
+      <caption id="cap-tabla">Tabla 1. Variables de control de un lote hipotético de 200 unidades en una semana</caption>
+      <thead>
+        <tr>
+          <th scope="col">Variable</th>
+          <th scope="col">Qué registra</th>
+          <th scope="col" class="cifra">Unidades</th>
+          <th scope="col" class="cifra">% del lote</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1. Recibidas</th>
+          <td>Cantidad ingresada según el conteo de llegada</td>
+          <td class="cifra">200</td>
+          <td class="cifra">100,0</td>
+        </tr>
+        <tr>
+          <th scope="row">2. Vendidas</th>
+          <td>Salidas registradas como venta en el período</td>
+          <td class="cifra">148</td>
+          <td class="cifra">74,0</td>
+        </tr>
+        <tr>
+          <th scope="row" class="obs">3. Descarte por vencimiento</th>
+          <td>Unidades retiradas al alcanzar su fecha límite</td>
+          <td class="cifra">22</td>
+          <td class="cifra">11,0</td>
+        </tr>
+        <tr>
+          <th scope="row">4. Descarte por rotura</th>
+          <td>Unidades dañadas en cualquier etapa</td>
+          <td class="cifra">9</td>
+          <td class="cifra">4,5</td>
+        </tr>
+        <tr>
+          <th scope="row">5. Descarte por devolución</th>
+          <td>Unidades retiradas después de exhibirse</td>
+          <td class="cifra">5</td>
+          <td class="cifra">2,5</td>
+        </tr>
+        <tr>
+          <th scope="row">6. Descarte por error de pedido</th>
+          <td>Unidades recibidas que no correspondían</td>
+          <td class="cifra">8</td>
+          <td class="cifra">4,0</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Existencia al cierre</th>
+          <td>Control de cuadre: recibidas menos vendidas y descartadas</td>
+          <td class="cifra">8</td>
+          <td class="cifra">4,0</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <p>El porcentaje se obtiene dividiendo las unidades de cada variable entre las recibidas y multiplicando por cien. En el ejemplo, las cuatro causas suman 44 unidades, el 22,0 % del lote, y las 8 que siguen en el estante al cierre completan el cuadre. Si vendidas, descartadas y existentes no suman las recibidas, hay unidades sin registrar y conviene revisar el período antes de sacar conclusiones. La fila marcada corresponde a la causa observada en la Figura 2.</p>
+
+  <div class="fila">
+    <p class="margen">04.5</p>
+    <div class="fila-cuerpo">
+      <h3>Buenas prácticas del registro</h3>
+      <p>Estas prácticas no garantizan ningún resultado; su función es que el registro sea completo y comparable entre períodos.</p>
+      <ul class="practicas">
+        <li>Anotar el descarte el mismo día en que se retira el producto, antes de que la unidad salga del local.</li>
+        <li>Usar una sola unidad de medida por producto durante todo el período.</li>
+        <li>Asignar una única causa a cada evento y dejar una nota cuando la elección no sea evidente.</li>
+        <li>Guardar el cuaderno o el archivo en un lugar fijo y conservar los meses anteriores para compararlos.</li>
+        <li>Comprobar cada semana que vendidas, descartadas y existentes sumen las unidades recibidas.</li>
+        <li>Escribir junto al resumen mensual cualquier decisión tomada a partir de él y el motivo que la sustenta.</li>
+        <li>Consultar con un contador público colegiado cómo documentar las mermas para fines contables y tributarios.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">04.6</p>
+    <div class="fila-cuerpo">
+      <h3>Limitaciones del método</h3>
+      <p>El registro manual depende de la constancia de quien lo lleva. Un día sin anotar o un evento olvidado no se recupera después, y un mes con vacíos no es comparable con uno completo. El método tampoco resuelve por sí solo las causas que se superponen: una unidad dañada que además estaba cerca de su fecha queda asignada a una sola causa, lo que simplifica la lectura a costa de cierta precisión.</p>
+      <p>Los porcentajes del lote describen lo ocurrido en un período, pero no explican por qué ocurrió ni anticipan lo que pasará en el siguiente. Las temporadas, los cambios de presentación y las variaciones en los días de atención alteran la comparación entre meses. Por eso el resumen debe leerse junto con las notas y no como un indicador aislado.</p>
+      <p>Por último, el método mide unidades y no importes. Llevar el descarte a un valor monetario exige criterios de costo y de registro contable que exceden el propósito de este portal y que deben definirse con un contador público o un profesional habilitado. El manejo, el almacenamiento y la disposición del producto vencido se rigen por la normativa sanitaria vigente en el Perú y deben consultarse con la autoridad sanitaria competente.</p>
+    </div>
+  </div>
+</article>
+
+<section id="notas" class="pliego" aria-labelledby="t-notas">
+  <div class="fila apertura">
+    <p class="margen">Asiento 05</p>
+    <h2 id="t-notas">Notas breves: tres confusiones habituales</h2>
+  </div>
+
+  <div class="fila">
+    <p class="margen">05.1</p>
+    <div class="fila-cuerpo">
+      <h3>Descarte y merma no son sinónimos exactos</h3>
+      <p>En el habla diaria se usan como equivalentes, pero conviene separarlos en el registro. El descarte, tal como lo define este portal, es la unidad retirada del estante por una causa identificable: vencimiento, rotura, devolución o error de pedido. La merma suele usarse en un sentido más amplio, para cualquier diferencia entre lo que debería haber y lo que realmente hay, incluidas las faltantes sin explicación. Mezclar ambos conceptos en una misma columna impide saber qué parte de la diferencia tiene causa conocida. El tratamiento contable de cada uno debe definirse con un contador público colegiado.</p>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">05.2</p>
+    <div class="fila-cuerpo">
+      <h3>Un porcentaje bajo no equivale a pocas unidades</h3>
+      <p>Un porcentaje del lote puede parecer pequeño y, aun así, corresponder a muchas unidades si el lote es grande. A la inversa, un producto que llega en cantidades reducidas puede mostrar un porcentaje alto con apenas dos o tres unidades descartadas. Por eso el registro presenta siempre las dos cifras juntas. En el ejemplo hipotético de la Tabla 1, el 2,5 % de devolución equivale a cinco unidades; aplicado a un lote de veinte unidades, ese porcentaje daría media unidad, algo que no puede ocurrir. Leer solo una de las dos cifras conduce a conclusiones parciales.</p>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">05.3</p>
+    <div class="fila-cuerpo">
+      <h3>Fecha de llegada y fecha de vencimiento cumplen funciones distintas</h3>
+      <p>La fecha de vencimiento la fija el fabricante y figura en el envase; el comercio no la determina. La fecha de llegada, en cambio, solo la conoce el comercio, y es la que permite saber cuánto tiempo estuvo cada lote en el estante antes de venderse o descartarse. Muchos registros anotan únicamente la primera y pierden la posibilidad de relacionar el descarte con el tiempo de exposición. Anotar ambas es una tarea de registro y no implica ninguna indicación sobre conservación o inocuidad, materias que corresponden a la normativa sanitaria vigente y a la autoridad competente.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Unidad publicitaria 2: insertar entre las notas breves y la sección Nosotros, en un contenedor propio con la leyenda «Publicidad», con una separación mínima de 48 px respecto del contenido editorial. Mantener como máximo dos unidades en toda la página y ninguna dentro de los diálogos legales. -->
+
+<section id="nosotros" class="pliego" aria-labelledby="t-nosotros">
+  <div class="fila apertura">
+    <p class="margen">Asiento 06</p>
+    <h2 id="t-nosotros">Nosotros</h2>
+  </div>
+
+  <div class="fila">
+    <p class="margen">06.1</p>
+    <div class="fila-cuerpo">
+      <h3>Quién edita</h3>
+      <p>themins es un portal editado por SERGIO ANDRES JIMENEZ JULIO, titular responsable del sitio, con domicilio comercial en Av. 28 de Julio 888, Miraflores 15074, Perú. El portal se dedica exclusivamente a explicar métodos de registro y lectura del producto descartado en comercios pequeños de rotación rápida.</p>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">06.2</p>
+    <div class="fila-cuerpo">
+      <h3>Cómo se elabora el contenido</h3>
+      <p>Cada texto parte de una pregunta concreta sobre el registro del descarte y se redacta con un orden fijo: definición del concepto, descripción del procedimiento, error frecuente asociado y limitaciones. Los ejemplos numéricos se construyen de forma hipotética, se expresan en unidades o en porcentaje del lote y se verifican aritméticamente antes de publicarse. Cada artículo indica su fecha de publicación y la de su última revisión. No se publican testimonios, casos de clientes ni cifras atribuidas a comercios reales.</p>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">06.3</p>
+    <div class="fila-cuerpo">
+      <h3>Corrección de errores</h3>
+      <p>Si detecta un error de cálculo, de redacción o de criterio, puede comunicarlo a <a href="mailto:soporte@themins.blog">soporte@themins.blog</a> indicando el texto y el párrafo. Cada aviso se revisa; cuando el error se confirma, el texto se corrige, se actualiza su fecha de revisión y, si la corrección cambia el sentido de un ejemplo, se añade al final del artículo una nota que describe el cambio.</p>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">06.4</p>
+    <div class="fila-cuerpo">
+      <h3>Cómo se financia el sitio</h3>
+      <p>El acceso es gratuito. El sitio se financia con anuncios de terceros servidos por redes publicitarias, según se detalla en la <a href="#dlg-cookies" data-dialogo="dlg-cookies">Política de Cookies</a>. Los anuncios se muestran en espacios separados y distinguibles del contenido editorial; los anunciantes no intervienen en la elección de temas ni en la redacción, y la presencia de un anuncio no implica recomendación de lo anunciado.</p>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">06.5</p>
+    <div class="fila-cuerpo">
+      <h3>Límite de la actividad</h3>
+      <p>themins no vende mercadería ni programas, no realiza auditorías de inventario, no presta asesoría sanitaria, contable ni tributaria individual y no interviene en la disposición de producto. Las consultas personales que llegan por correo se responden, cuando corresponde, con una referencia a los textos publicados y la recomendación de acudir a un profesional habilitado.</p>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">06.6</p>
+    <div class="fila-cuerpo">
+      <h3>Ficha del titular</h3>
+      <dl class="ficha" id="ficha">
+        <dt>Nombre del sitio</dt>
+        <dd>themins</dd>
+        <dt>Titular</dt>
+        <dd>SERGIO ANDRES JIMENEZ JULIO</dd>
+        <dt>Dominio</dt>
+        <dd>themins.blog</dd>
+        <dt>Correo de soporte</dt>
+        <dd><a href="mailto:soporte@themins.blog">soporte@themins.blog</a></dd>
+        <dt>Dirección comercial</dt>
+        <dd>Av. 28 de Julio 888, Miraflores 15074, Perú</dd>
+        <dt>Teléfono</dt>
+        <dd><a href="tel:+5114174988">+51 1 4174988</a></dd>
+        <dt>País y ley de datos aplicable</dt>
+        <dd>Perú; Ley N.º 29733, Ley de Protección de Datos Personales</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="pliego" aria-labelledby="t-contacto">
+  <div class="fila apertura">
+    <p class="margen">Asiento 07</p>
+    <h2 id="t-contacto">Contacto</h2>
+  </div>
+  <p>Puede escribir para comunicar un error, proponer un tema o ejercer sus derechos sobre datos personales. Las consultas sobre casos particulares se responden solo con referencias a los textos publicados.</p>
+
+  <div class="fila">
+    <p class="margen">07.1</p>
+    <div class="fila-cuerpo">
+      <h3>Datos de contacto</h3>
+      <ul class="datos-contacto">
+        <li><strong>Titular:</strong> SERGIO ANDRES JIMENEZ JULIO</li>
+        <li><strong>Correo:</strong> <a href="mailto:soporte@themins.blog">soporte@themins.blog</a></li>
+        <li><strong>Teléfono:</strong> <a href="tel:+5114174988">+51 1 4174988</a></li>
+        <li><strong>Dirección comercial:</strong> Av. 28 de Julio 888, Miraflores 15074, Perú</li>
+        <li><strong>Dominio oficial:</strong> themins.blog</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">07.2</p>
+    <div class="fila-cuerpo">
+      <h3>Formulario de contacto</h3>
+      <aside class="aviso-phishing" aria-labelledby="t-phishing">
+        <h4 id="t-phishing">Aviso contra suplantación</h4>
+        <p>themins nunca solicita contraseñas, claves bancarias, códigos de verificación, datos de tarjetas ni pagos, por ningún medio. La única dirección de correo del portal es soporte@themins.blog y su único dominio es themins.blog. Si recibe un mensaje que usa este nombre desde otra dirección o le pide dinero o datos de acceso, no responda, no abra sus enlaces y elimínelo.</p>
+      </aside>
+      <form id="form-contacto" class="formulario" action="mailto:soporte@themins.blog" method="post" enctype="text/plain" autocomplete="off">
+        <div class="campo">
+          <label for="f-nombre">Nombre</label>
+          <input id="f-nombre" name="nombre" type="text" required minlength="2" maxlength="80" autocomplete="off" aria-describedby="e-nombre">
+          <p id="e-nombre" class="error" hidden></p>
+        </div>
+        <div class="campo">
+          <label for="f-correo">Correo electrónico</label>
+          <input id="f-correo" name="correo" type="email" required maxlength="120" autocomplete="off" inputmode="email" aria-describedby="e-correo">
+          <p id="e-correo" class="error" hidden></p>
+        </div>
+        <div class="campo">
+          <label for="f-mensaje">Mensaje</label>
+          <textarea id="f-mensaje" name="mensaje" required minlength="20" maxlength="2000" autocomplete="off" aria-describedby="e-mensaje"></textarea>
+          <p id="e-mensaje" class="error" hidden></p>
+        </div>
+        <p class="nota-formulario">Al pulsar el botón, su programa de correo abrirá un mensaje dirigido a soporte@themins.blog con los datos que escribió; el envío lo realiza usted desde su propia cuenta. Este formulario no guarda información en el sitio. Consulte la <a href="#dlg-privacidad" data-dialogo="dlg-privacidad">Política de Privacidad</a> antes de enviar.</p>
+        <button class="boton" type="submit">Preparar el correo</button>
+        <p id="f-estado" class="estado" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="politicas" class="pliego" aria-labelledby="t-politicas">
+  <div class="fila apertura">
+    <p class="margen">Asiento 08</p>
+    <h2 id="t-politicas">Políticas y descargo de responsabilidad</h2>
+  </div>
+
+  <div class="fila">
+    <p class="margen">08.1</p>
+    <div class="fila-cuerpo">
+      <h3 id="descargo">Descargo de responsabilidad</h3>
+      <p>themins.blog, operado por SERGIO ANDRES JIMENEZ JULIO, es un portal puramente informativo. No presta intermediación financiera, no capta dinero del público, no ofrece asesoría de inversión personalizada y no concede créditos. Tampoco vende mercadería, no realiza auditorías de inventario, no presta asesoría sanitaria, contable ni tributaria individual y no interviene en la disposición de producto.</p>
+      <p>Los contenidos describen métodos generales de registro y lectura del descarte y no constituyen una recomendación para un comercio concreto. Los ejemplos numéricos son hipotéticos y no representan resultados que el lector pueda esperar. El manejo, el almacenamiento y la disposición del producto vencido se rigen por la normativa sanitaria vigente en el Perú y deben consultarse con la autoridad sanitaria competente. El tratamiento contable y tributario de las mermas debe definirse con un contador público colegiado o un profesional habilitado.</p>
+      <p>Las decisiones que se tomen a partir de estos contenidos son responsabilidad exclusiva de quien las adopta.</p>
+    </div>
+  </div>
+
+  <div class="fila">
+    <p class="margen">08.2</p>
+    <div class="fila-cuerpo">
+      <h3>Documentos legales</h3>
+      <p>Los cuatro documentos tienen la misma fecha de última actualización: 16 de septiembre de 2026.</p>
+      <ul class="documentos">
+        <li><a href="#dlg-privacidad" data-dialogo="dlg-privacidad">Política de Privacidad</a></li>
+        <li><a href="#dlg-terminos" data-dialogo="dlg-terminos">Términos y Condiciones</a></li>
+        <li><a href="#dlg-cookies" data-dialogo="dlg-cookies">Política de Cookies</a></li>
+        <li><a href="#dlg-descargo" data-dialogo="dlg-descargo">Descargo de Responsabilidad</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="pie" aria-labelledby="t-pie">
+  <div class="pie-in">
+    <p class="margen">Colofón</p>
+    <div>
+      <h2 id="t-pie" class="pie-titulo">themins</h2>
+      <p>Portal informativo sobre el registro y la lectura del descarte en comercios pequeños de rotación rápida.</p>
+      <dl class="ficha" id="datos-pie">
+        <dt>Nombre del sitio</dt>
+        <dd>themins</dd>
+        <dt>Titular</dt>
+        <dd>SERGIO ANDRES JIMENEZ JULIO</dd>
+        <dt>Dominio</dt>
+        <dd>themins.blog</dd>
+        <dt>Correo de soporte</dt>
+        <dd><a href="mailto:soporte@themins.blog">soporte@themins.blog</a></dd>
+        <dt>Dirección comercial</dt>
+        <dd>Av. 28 de Julio 888, Miraflores 15074, Perú</dd>
+        <dt>Teléfono</dt>
+        <dd><a href="tel:+5114174988">+51 1 4174988</a></dd>
+        <dt>País y ley de datos aplicable</dt>
+        <dd>Perú; Ley N.º 29733, Ley de Protección de Datos Personales</dd>
+      </dl>
+      <h2 id="t-docs-pie" class="pie-sub">Documentos legales</h2>
+      <ul class="pie-enlaces" aria-labelledby="t-docs-pie">
+        <li><a href="#dlg-privacidad" data-dialogo="dlg-privacidad">Política de Privacidad</a></li>
+        <li><a href="#dlg-terminos" data-dialogo="dlg-terminos">Términos y Condiciones</a></li>
+        <li><a href="#dlg-cookies" data-dialogo="dlg-cookies">Política de Cookies</a></li>
+        <li><a href="#dlg-descargo" data-dialogo="dlg-descargo">Descargo de Responsabilidad</a></li>
+        <li class="solo-con-js"><button id="configurar-cookies" class="boton-texto" type="button">Configurar cookies</button></li>
+      </ul>
+      <p class="pie-legal">© 2026 themins. Textos e ilustraciones protegidos por el Decreto Legislativo N.º 822. Todos los ejemplos numéricos del sitio son hipotéticos.</p>
+    </div>
+  </div>
+</footer>
+
+<aside id="aviso-cookies" class="cookies" aria-labelledby="t-aviso-cookies" hidden>
+  <p id="t-aviso-cookies" class="cookies-titulo">Uso de cookies</p>
+  <p class="cookies-texto">Este sitio guarda su elección en el navegador. Si acepta, los servicios de medición y publicidad de terceros podrán usar cookies, también para mostrar anuncios basados en visitas previas. Si rechaza, no se activarán. Detalles en la <a href="#dlg-cookies" data-dialogo="dlg-cookies">Política de Cookies</a>.</p>
+  <div class="cookies-acciones">
+    <button class="boton" type="button" data-consentimiento="aceptado">Aceptar cookies</button>
+    <button class="boton" type="button" data-consentimiento="rechazado">Rechazar cookies</button>
+  </div>
+</aside>
+
+<dialog id="dlg-privacidad" class="dialogo" aria-labelledby="t-privacidad">
+  <div class="dialogo-cab">
+    <h2 id="t-privacidad">Política de Privacidad</h2>
+    <button class="boton-borde dialogo-cerrar" type="button" data-cerrar>Cerrar</button>
+  </div>
+  <div class="dialogo-cuerpo">
+    <p class="vigencia">Última actualización: 16 de septiembre de 2026</p>
+    <h3>1. Marco legal</h3>
+    <p>Esta política se rige por la Ley N.º 29733, Ley de Protección de Datos Personales, y por su Reglamento, aprobado por el Decreto Supremo N.º 016-2024-JUS y vigente desde el 30 de marzo de 2025, así como por las demás normas peruanas aplicables.</p>
+    <h3>2. Identidad y domicilio del responsable</h3>
+    <p>El responsable del tratamiento es SERGIO ANDRES JIMENEZ JULIO, titular del sitio themins, con domicilio comercial en Av. 28 de Julio 888, Miraflores 15074, Perú. Correo electrónico: soporte@themins.blog. Teléfono: +51 1 4174988.</p>
+    <h3>3. Datos que se recogen</h3>
+    <ul>
+      <li>Datos que usted facilita al escribir a soporte@themins.blog, directamente o mediante el formulario de contacto: nombre, dirección de correo electrónico y contenido del mensaje. El formulario no almacena datos en el sitio; solo prepara un mensaje en su programa de correo.</li>
+      <li>Datos técnicos de navegación que pueden recoger los servicios de medición y publicidad de terceros si usted los acepta: dirección IP, tipo de navegador y de dispositivo, páginas visitadas, fecha y hora de acceso e identificadores de cookies.</li>
+      <li>Su preferencia sobre cookies, guardada en el almacenamiento local de su navegador.</li>
+    </ul>
+    <p>El sitio no solicita datos sensibles, datos bancarios ni documentos de identidad, y le pide que no los incluya en sus mensajes.</p>
+    <h3>4. Finalidad y base del tratamiento</h3>
+    <p>Los datos de contacto se tratan para responder su consulta, atender avisos de corrección y gestionar solicitudes relativas a sus derechos. La base del tratamiento es su consentimiento, expresado al enviar el mensaje, y la necesidad de atender la solicitud que usted formula. Los datos técnicos se tratan para medir el uso del sitio y mostrar publicidad, con base en el consentimiento que usted otorga en el aviso de cookies y que puede retirar en cualquier momento. Los datos no se venden ni se usan para decisiones automatizadas que produzcan efectos jurídicos sobre usted.</p>
+    <h3>5. Plazo de conservación</h3>
+    <p>Los mensajes y los datos de contacto se conservan durante doce meses desde la última comunicación, salvo que usted solicite antes su cancelación o que una obligación legal exija un plazo mayor; vencido ese plazo, se eliminan. La preferencia de cookies permanece en su navegador hasta que usted la borre. Los datos técnicos recogidos por terceros se conservan según las políticas de cada proveedor.</p>
+    <h3>6. Terceros que intervienen</h3>
+    <ul>
+      <li>El proveedor de alojamiento del sitio, que procesa los datos técnicos necesarios para servir las páginas.</li>
+      <li>El proveedor del servicio de correo electrónico con el que se reciben y responden los mensajes.</li>
+      <li>Google, como proveedor de publicidad y, en su caso, de medición, que puede usar cookies en los términos de la Política de Cookies.</li>
+    </ul>
+    <p>Estos terceros actúan conforme a sus propias políticas y, cuando corresponde, como encargados del tratamiento.</p>
+    <h3>7. Transferencias fuera del país</h3>
+    <p>Los proveedores de alojamiento, correo y publicidad pueden almacenar o procesar datos en servidores ubicados fuera del Perú, entre otros en los Estados Unidos de América. Estos flujos transfronterizos se realizan solo para las finalidades descritas, con proveedores que declaran medidas de protección adecuadas y conforme a lo dispuesto por la Ley N.º 29733 y su Reglamento. Al aceptar las cookies de terceros o al escribir al correo del sitio, usted queda informado de esta circunstancia.</p>
+    <h3>8. Derechos de acceso, rectificación, cancelación y oposición</h3>
+    <p>Puede ejercer los derechos de acceso, rectificación, cancelación y oposición, así como los demás que reconoce la normativa vigente, enviando una solicitud a soporte@themins.blog con el asunto «Derechos de datos personales». Indique su nombre completo, el derecho que ejerce, una descripción clara de lo que solicita y un medio para recibir la respuesta; podrá pedírsele información adicional razonable para verificar su identidad. Si falta información necesaria, se le pedirá que la complete y el plazo se contará desde que la solicitud quede completa.</p>
+    <p>La respuesta se envía en un plazo máximo de veinte días hábiles para el derecho de acceso y de diez días hábiles para los derechos de rectificación, cancelación y oposición. Si no recibe respuesta en ese plazo o no está conforme con ella, puede presentar una reclamación ante la Autoridad Nacional de Protección de Datos Personales del Ministerio de Justicia y Derechos Humanos.</p>
+    <h3>9. Menores de edad</h3>
+    <p>El sitio no está dirigido a menores de dieciocho años ni recoge de forma consciente datos de menores. Si usted es madre, padre o tutor y advierte que un menor envió datos personales, escriba a soporte@themins.blog para que se eliminen.</p>
+    <h3>10. Medidas de seguridad</h3>
+    <p>El sitio se sirve mediante conexión cifrada, no almacena en su servidor los datos del formulario y limita el acceso al buzón de correo al responsable. Las cuentas de gestión se protegen con contraseñas robustas y verificación en dos pasos, y los mensajes se eliminan al vencer su plazo de conservación. Ningún sistema es completamente invulnerable; si se detectara un incidente que afecte sus datos, se le informará y se adoptarán las medidas que exige la normativa.</p>
+    <h3>11. Cambios en esta política</h3>
+    <p>Cualquier cambio se publicará en este mismo documento con una nueva fecha de última actualización. Si el cambio afecta de forma relevante al tratamiento de los datos de quienes han escrito al sitio, se les comunicará además por correo electrónico antes de que entre en vigor.</p>
+    <p class="solo-sin-js"><a href="#politicas">Volver a Políticas</a></p>
+  </div>
+</dialog>
+
+<dialog id="dlg-terminos" class="dialogo" aria-labelledby="t-terminos">
+  <div class="dialogo-cab">
+    <h2 id="t-terminos">Términos y Condiciones</h2>
+    <button class="boton-borde dialogo-cerrar" type="button" data-cerrar>Cerrar</button>
+  </div>
+  <div class="dialogo-cuerpo">
+    <p class="vigencia">Última actualización: 16 de septiembre de 2026</p>
+    <h3>1. Identificación del titular</h3>
+    <p>El sitio themins, accesible en el dominio themins.blog, es operado por SERGIO ANDRES JIMENEZ JULIO, con domicilio comercial en Av. 28 de Julio 888, Miraflores 15074, Perú, correo electrónico soporte@themins.blog y teléfono +51 1 4174988.</p>
+    <h3>2. Objeto del sitio</h3>
+    <p>themins publica contenidos informativos sobre el registro, la medición y la lectura del producto descartado por vencimiento, rotura, devolución o error de pedido en comercios pequeños de rotación rápida. Su finalidad es divulgativa y general.</p>
+    <h3>3. Gratuidad</h3>
+    <p>El acceso y la lectura de los contenidos son gratuitos y no requieren registro. El sitio no cobra por ningún servicio ni vende productos.</p>
+    <h3>4. Usos permitidos</h3>
+    <ul>
+      <li>Leer, consultar e imprimir los contenidos para uso personal o para la organización interna de su comercio.</li>
+      <li>Compartir enlaces a las secciones del sitio.</li>
+      <li>Citar fragmentos breves indicando la fuente y enlazando al original.</li>
+    </ul>
+    <h3>5. Usos prohibidos</h3>
+    <ul>
+      <li>Reproducir, distribuir o modificar los contenidos con fines comerciales sin autorización escrita del titular.</li>
+      <li>Presentarse como el titular o usar el nombre del sitio para solicitar datos, pagos o servicios.</li>
+      <li>Intentar acceder sin autorización a los sistemas del sitio, introducir código malicioso o sobrecargar el servidor.</li>
+      <li>Extraer contenido de forma masiva con herramientas automatizadas.</li>
+      <li>Generar clics artificiales o interactuar de forma fraudulenta con los anuncios.</li>
+    </ul>
+    <h3>6. Propiedad intelectual</h3>
+    <p>Los textos, tablas, ilustraciones y el diseño del sitio pertenecen a su titular y están protegidos por el Decreto Legislativo N.º 822, Ley sobre el Derecho de Autor, y demás normas aplicables. El nombre themins y su presentación visual no pueden usarse sin autorización.</p>
+    <h3>7. Enlaces externos</h3>
+    <p>El sitio contiene enlaces a páginas de terceros, como las políticas de Google citadas en la Política de Cookies. El titular no controla ni se responsabiliza del contenido, la disponibilidad o las prácticas de esas páginas.</p>
+    <h3>8. Publicidad</h3>
+    <p>El sitio muestra anuncios de terceros en espacios diferenciados del contenido editorial. Cada anuncio es responsabilidad de su anunciante; su presencia no implica recomendación, respaldo ni relación comercial con lo anunciado, y los anunciantes no influyen en los contenidos.</p>
+    <h3>9. Limitación de responsabilidad</h3>
+    <p>Los contenidos tienen fines informativos y pueden no ajustarse a la situación de cada comercio. El titular procura que sean exactos y actuales, pero no garantiza su integridad ni su adecuación a un caso concreto, y no responde por decisiones comerciales, contables, tributarias o sanitarias tomadas a partir de ellos, ni por interrupciones del servicio ajenas a su control. Nada de lo aquí dispuesto limita los derechos que la Ley N.º 29571, Código de Protección y Defensa del Consumidor, reconoce a los usuarios.</p>
+    <h3>10. Modificaciones</h3>
+    <p>El titular puede modificar estos términos y los contenidos del sitio. Los cambios se publican en este documento con una nueva fecha de última actualización y rigen desde su publicación.</p>
+    <h3>11. Legislación aplicable</h3>
+    <p>Estos términos se rigen por las leyes de la República del Perú. Cualquier controversia se someterá a los jueces y tribunales competentes de la ciudad de Lima, sin perjuicio de los derechos que la normativa de protección al consumidor reconozca al usuario.</p>
+    <p class="solo-sin-js"><a href="#politicas">Volver a Políticas</a></p>
+  </div>
+</dialog>
+
+<dialog id="dlg-cookies" class="dialogo" aria-labelledby="t-cookies">
+  <div class="dialogo-cab">
+    <h2 id="t-cookies">Política de Cookies</h2>
+    <button class="boton-borde dialogo-cerrar" type="button" data-cerrar>Cerrar</button>
+  </div>
+  <div class="dialogo-cuerpo">
+    <p class="vigencia">Última actualización: 16 de septiembre de 2026</p>
+    <h3>1. Qué son las cookies</h3>
+    <p>Las cookies son pequeños archivos que un sitio guarda en su navegador para recordar información entre visitas. Este sitio usa además el almacenamiento local del navegador para recordar su elección sobre cookies.</p>
+    <h3>2. Cookies técnicas</h3>
+    <p>Son necesarias para el funcionamiento básico del sitio. themins guarda en el almacenamiento local una única clave con su preferencia, aceptada o rechazada, que no lo identifica personalmente. No requieren consentimiento y no se usan con fines publicitarios.</p>
+    <h3>3. Cookies de medición</h3>
+    <p>Permiten conocer de forma agregada cuántas personas visitan el sitio y qué secciones consultan, para mejorar la organización de los contenidos. Solo se activan si usted acepta las cookies.</p>
+    <h3>4. Cookies publicitarias de terceros</h3>
+    <p>Los proveedores de publicidad, incluido Google, usan cookies para mostrar anuncios basados en las visitas previas del usuario a este sitio o a otros sitios de internet. Estas cookies permiten a Google y a sus socios mostrar anuncios según esas visitas. Solo se activan si usted acepta las cookies.</p>
+    <p>Puede conocer cómo usa Google la información de los sitios que emplean sus servicios en <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/partner-sites</a> y desactivar la publicidad personalizada en <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">https://adssettings.google.com</a>.</p>
+    <h3>5. Cómo dar o revocar el consentimiento</h3>
+    <p>En su primera visita, el aviso de cookies le permite aceptar o rechazar. Puede cambiar su elección cuando quiera con el botón «Configurar cookies» del pie de página.</p>
+    <p>También puede revocar el consentimiento desde su navegador: en el apartado de privacidad o de configuración de sitios encontrará las opciones para eliminar las cookies y los datos de sitios ya guardados y para bloquear las cookies de terceros. Si elimina los datos de este sitio, el aviso volverá a mostrarse. Bloquear las cookies publicitarias no elimina los anuncios, pero hace que no se basen en sus visitas previas.</p>
+    <h3>6. Cambios en esta política</h3>
+    <p>Esta política puede actualizarse cuando cambien los servicios utilizados. La versión vigente es siempre la publicada en este documento, con su fecha de última actualización.</p>
+    <p class="solo-sin-js"><a href="#politicas">Volver a Políticas</a></p>
+  </div>
+</dialog>
+
+<dialog id="dlg-descargo" class="dialogo" aria-labelledby="t-descargo">
+  <div class="dialogo-cab">
+    <h2 id="t-descargo">Descargo de Responsabilidad</h2>
+    <button class="boton-borde dialogo-cerrar" type="button" data-cerrar>Cerrar</button>
+  </div>
+  <div class="dialogo-cuerpo">
+    <p class="vigencia">Última actualización: 16 de septiembre de 2026</p>
+    <h3>1. Carácter del portal</h3>
+    <p>themins.blog, operado por SERGIO ANDRES JIMENEZ JULIO, es un portal puramente informativo dedicado a explicar métodos generales de registro y lectura del producto descartado en comercios pequeños.</p>
+    <h3>2. Actividades que el portal no realiza</h3>
+    <p>No presta intermediación financiera, no capta dinero del público, no ofrece asesoría de inversión personalizada y no concede créditos. Tampoco vende mercadería, no realiza auditorías de inventario, no presta asesoría sanitaria, contable ni tributaria individual y no interviene en la disposición de producto.</p>
+    <h3>3. Producto vencido y normativa sanitaria</h3>
+    <p>Nada de lo publicado constituye una indicación sobre la conservación, la inocuidad, el uso o el destino de productos vencidos o dañados. Su manejo, almacenamiento y disposición se rigen por la normativa sanitaria vigente en el Perú y deben consultarse con la autoridad sanitaria competente.</p>
+    <h3>4. Tratamiento contable y tributario</h3>
+    <p>El registro descrito mide unidades y no reemplaza la documentación contable del negocio. El tratamiento contable y tributario de las mermas y los descartes debe definirse con un contador público colegiado o un profesional habilitado.</p>
+    <h3>5. Ejemplos hipotéticos</h3>
+    <p>Todas las cifras del sitio son hipotéticas, se expresan en unidades o en porcentaje del lote y tienen fines ilustrativos. No representan comercios reales ni resultados que el lector pueda esperar.</p>
+    <h3>6. Publicidad</h3>
+    <p>Los anuncios que aparecen en el sitio pertenecen a terceros. Su presencia no implica recomendación ni respaldo del titular.</p>
+    <h3>7. Responsabilidad del lector</h3>
+    <p>Las decisiones que se tomen a partir de estos contenidos son responsabilidad exclusiva de quien las adopta. Ante cualquier duda sobre su caso, consulte con un profesional habilitado o con la autoridad competente.</p>
+    <p class="solo-sin-js"><a href="#politicas">Volver a Políticas</a></p>
+  </div>
+</dialog>
+
+<script>
+(function () {
+  "use strict";
+
+  var doc = document;
+  var raiz = doc.documentElement;
+  var CLAVE_COOKIES = "themins-consentimiento-cookies";
+  var ENFOCABLES = "a[href], button:not([disabled]), input:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex='-1'])";
+  var consulta = typeof window.matchMedia === "function" ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
+
+  function duracion(ms) {
+    return consulta && consulta.matches ? 0 : ms;
+  }
+
+  function leer(clave) {
+    try {
+      return window.localStorage.getItem(clave);
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function guardar(clave, valor) {
+    try {
+      window.localStorage.setItem(clave, valor);
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function visibles(contenedor) {
+    return Array.prototype.filter.call(contenedor.querySelectorAll(ENFOCABLES), function (el) {
+      return el.getClientRects().length > 0;
+    });
+  }
+
+  var menuBoton = doc.querySelector(".menu-boton");
+  var menu = doc.getElementById("menu");
+
+  var cerrarMenu = function (devolverFoco) {
+    if (!menuBoton || !menu) {
+      return;
+    }
+    menuBoton.setAttribute("aria-expanded", "false");
+    menu.classList.remove("abierto");
+    if (devolverFoco) {
+      menuBoton.focus();
+    }
+  };
+
+  if (menuBoton && menu) {
+    menuBoton.addEventListener("click", function () {
+      var abierto = menuBoton.getAttribute("aria-expanded") === "true";
+      menuBoton.setAttribute("aria-expanded", abierto ? "false" : "true");
+      menu.classList.toggle("abierto", !abierto);
+    });
+    menu.addEventListener("click", function (ev) {
+      if (ev.target instanceof Element && ev.target.closest("a")) {
+        cerrarMenu(false);
+      }
+    });
+  }
+
+  var abridor = null;
+
+  var abrirDialogo = function (dialogo, origen) {
+    if (!dialogo || typeof dialogo.showModal !== "function") {
+      return false;
+    }
+    if (dialogo.open) {
+      return true;
+    }
+    abridor = origen || null;
+    dialogo.classList.remove("cerrando");
+    dialogo.showModal();
+    dialogo.scrollTop = 0;
+    var cerrar = dialogo.querySelector("[data-cerrar]");
+    if (cerrar) {
+      cerrar.focus();
+    }
+    return true;
+  };
+
+  var cerrarDialogo = function (dialogo) {
+    if (!dialogo || !dialogo.open || dialogo.classList.contains("cerrando")) {
+      return;
+    }
+    dialogo.classList.add("cerrando");
+    window.setTimeout(function () {
+      if (dialogo.open) {
+        dialogo.close();
+      }
+    }, duracion(200));
+  };
+
+  Array.prototype.forEach.call(doc.querySelectorAll("dialog.dialogo"), function (dialogo) {
+    dialogo.addEventListener("cancel", function (ev) {
+      ev.preventDefault();
+      cerrarDialogo(dialogo);
+    });
+    dialogo.addEventListener("close", function () {
+      dialogo.classList.remove("cerrando");
+      if (abridor && doc.contains(abridor)) {
+        abridor.focus();
+      }
+      abridor = null;
+    });
+    dialogo.addEventListener("click", function (ev) {
+      if (ev.target !== dialogo) {
+        return;
+      }
+      var caja = dialogo.getBoundingClientRect();
+      var fuera = ev.clientX < caja.left || ev.clientX > caja.right || ev.clientY < caja.top || ev.clientY > caja.bottom;
+      if (fuera) {
+        cerrarDialogo(dialogo);
+      }
+    });
+    Array.prototype.forEach.call(dialogo.querySelectorAll("[data-cerrar]"), function (boton) {
+      boton.addEventListener("click", function () {
+        cerrarDialogo(dialogo);
+      });
+    });
+  });
+
+  doc.addEventListener("click", function (ev) {
+    if (!(ev.target instanceof Element)) {
+      return;
+    }
+    var enlace = ev.target.closest("[data-dialogo]");
+    if (!enlace) {
+      return;
+    }
+    var dialogo = doc.getElementById(enlace.getAttribute("data-dialogo"));
+    if (dialogo && abrirDialogo(dialogo, enlace)) {
+      ev.preventDefault();
+    }
+  });
+
+  doc.addEventListener("keydown", function (ev) {
+    var dialogo = doc.querySelector("dialog.dialogo[open]");
+    if (ev.key === "Escape" && !dialogo && menu && menu.classList.contains("abierto")) {
+      cerrarMenu(true);
+      return;
+    }
+    if (ev.key !== "Tab" || !dialogo) {
+      return;
+    }
+    var lista = visibles(dialogo);
+    if (!lista.length) {
+      ev.preventDefault();
+      return;
+    }
+    var primero = lista[0];
+    var ultimo = lista[lista.length - 1];
+    var activo = doc.activeElement;
+    if (ev.shiftKey && (activo === primero || !dialogo.contains(activo))) {
+      ev.preventDefault();
+      ultimo.focus();
+    } else if (!ev.shiftKey && (activo === ultimo || !dialogo.contains(activo))) {
+      ev.preventDefault();
+      primero.focus();
+    }
+  });
+
+  if (window.location.hash) {
+    var inicial = doc.getElementById(window.location.hash.slice(1));
+    if (inicial && inicial.matches("dialog.dialogo")) {
+      abrirDialogo(inicial, null);
+    }
+  }
+
+  var aviso = doc.getElementById("aviso-cookies");
+  var reabrir = doc.getElementById("configurar-cookies");
+  var origenAviso = null;
+
+  var aplicarConsentimiento = function (valor) {
+    raiz.setAttribute("data-consentimiento", valor);
+  };
+
+  var mostrarAviso = function (origen) {
+    if (!aviso) {
+      return;
+    }
+    origenAviso = origen || null;
+    aviso.hidden = false;
+    aviso.getBoundingClientRect();
+    aviso.classList.add("visible");
+    if (origenAviso) {
+      var primero = aviso.querySelector("button");
+      if (primero) {
+        primero.focus();
+      }
+    }
+  };
+
+  var ocultarAviso = function () {
+    if (!aviso) {
+      return;
+    }
+    var teniaFoco = aviso.contains(doc.activeElement);
+    aviso.classList.remove("visible");
+    window.setTimeout(function () {
+      aviso.hidden = true;
+      if (teniaFoco) {
+        var destino = origenAviso || doc.getElementById("contenido");
+        if (destino) {
+          destino.focus({ preventScroll: true });
+        }
+      }
+      origenAviso = null;
+    }, duracion(200));
+  };
+
+  if (aviso) {
+    Array.prototype.forEach.call(aviso.querySelectorAll("[data-consentimiento]"), function (boton) {
+      boton.addEventListener("click", function () {
+        var valor = boton.getAttribute("data-consentimiento");
+        guardar(CLAVE_COOKIES, valor);
+        aplicarConsentimiento(valor);
+        ocultarAviso();
+      });
+    });
+    var previo = leer(CLAVE_COOKIES);
+    if (previo === "aceptado" || previo === "rechazado") {
+      aplicarConsentimiento(previo);
+    } else {
+      mostrarAviso(null);
+    }
+  }
+
+  if (reabrir) {
+    reabrir.addEventListener("click", function () {
+      mostrarAviso(reabrir);
+    });
+  }
+
+  var formulario = doc.getElementById("form-contacto");
+  if (formulario) {
+    var estado = doc.getElementById("f-estado");
+    var patronCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+    var campos = [
+      {
+        el: doc.getElementById("f-nombre"),
+        error: doc.getElementById("e-nombre"),
+        revisar: function (v) {
+          return v.length < 2 ? "Escriba su nombre con al menos 2 caracteres." : "";
+        }
+      },
+      {
+        el: doc.getElementById("f-correo"),
+        error: doc.getElementById("e-correo"),
+        revisar: function (v) {
+          if (!v) {
+            return "Escriba su dirección de correo electrónico.";
+          }
+          return patronCorreo.test(v) ? "" : "Escriba un correo con el formato nombre@dominio.com.";
+        }
+      },
+      {
+        el: doc.getElementById("f-mensaje"),
+        error: doc.getElementById("e-mensaje"),
+        revisar: function (v) {
+          return v.length < 20 ? "Escriba un mensaje de al menos 20 caracteres." : "";
+        }
+      }
+    ].filter(function (c) {
+      return c.el && c.error;
+    });
+
+    var marcar = function (campo) {
+      var mensaje = campo.revisar(campo.el.value.trim());
+      if (mensaje) {
+        campo.el.setAttribute("aria-invalid", "true");
+        campo.error.textContent = mensaje;
+        campo.error.hidden = false;
+      } else {
+        campo.el.removeAttribute("aria-invalid");
+        campo.error.textContent = "";
+        campo.error.hidden = true;
+      }
+      return !mensaje;
+    };
+
+    formulario.noValidate = true;
+
+    campos.forEach(function (campo) {
+      campo.el.addEventListener("input", function () {
+        if (campo.el.getAttribute("aria-invalid") === "true") {
+          marcar(campo);
+        }
+      });
+    });
+
+    formulario.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var primerError = null;
+      campos.forEach(function (campo) {
+        if (!marcar(campo) && !primerError) {
+          primerError = campo.el;
+        }
+      });
+      if (primerError) {
+        if (estado) {
+          estado.textContent = "Revise los campos marcados antes de continuar.";
+        }
+        primerError.focus();
+        return;
+      }
+      var valores = campos.map(function (campo) {
+        return campo.el.value.trim();
+      });
+      var asunto = "Consulta desde themins.blog: " + valores[0];
+      var cuerpo = "Nombre: " + valores[0] + "\r\nCorreo: " + valores[1] + "\r\n\r\n" + valores[2];
+      var destino = formulario.getAttribute("action") || "mailto:soporte@themins.blog";
+      if (estado) {
+        estado.textContent = "Se abrió su programa de correo con el mensaje preparado. Revíselo y envíelo desde su cuenta.";
+      }
+      window.location.href = destino + "?subject=" + encodeURIComponent(asunto) + "&body=" + encodeURIComponent(cuerpo);
+    });
+  }
+}());
+</script>
+</body>
+</html>
